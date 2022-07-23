@@ -1,0 +1,26 @@
+
+spring:
+    application:
+        name: consumer-service
+    rabbitmq:
+        address: amqp://guest@127.0.0.1:15672/
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+        queue: greetings-sent
+        exchange: Greetings
+
+
+server:
+    port: 8083
+eureka:
+    instance:
+        hostname: localhost
+        port: 9001
+    client:
+        serviceUrl: 
+            registerWithEureka: false
+            fetchRegistry: false
+            defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka
+                        #http://localholst:9000/eureka/
