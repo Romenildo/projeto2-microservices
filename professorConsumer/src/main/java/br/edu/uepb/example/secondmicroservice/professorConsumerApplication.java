@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class SecondMicroserviceApplication {
+public class professorConsumerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SecondMicroserviceApplication.class, args);
+		SpringApplication.run(professorConsumerApplication.class, args);
 	}
 
 }
