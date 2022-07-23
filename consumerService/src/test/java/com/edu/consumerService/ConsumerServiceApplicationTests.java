@@ -1,10 +1,10 @@
-package com.edu.rabbitMqservice;
+package com.edu.consumerService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RabbitMqServiceApplicationTests {
+class ConsumerServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

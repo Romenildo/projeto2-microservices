@@ -1,4 +1,4 @@
-package com.edu.rabbitMqservice.dto;
+package com.edu.consumerService.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
