@@ -3,7 +3,6 @@ package br.edu.uepb.example.secondmicroservice.controllers;
 import java.util.List;
 import java.util.Optional;
 
-import br.edu.uepb.example.secondmicroservice.service.ProfessorService;
 import br.edu.uepb.example.secondmicroservice.domain.Professor;
 import br.edu.uepb.example.secondmicroservice.dtos.EmailDTO;
 import br.edu.uepb.example.secondmicroservice.repository.ProfessorRepository;

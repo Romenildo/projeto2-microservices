@@ -9,7 +9,8 @@ spring:
         username: guest
         password: guest
         queue: professor-sent
-        exchange: Greetings
+        queueAluno: aluno-sent
+        exchange: Alunos
 
     mail:
         host: gmail.com
