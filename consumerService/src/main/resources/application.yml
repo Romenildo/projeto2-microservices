@@ -10,7 +10,8 @@ spring:
         password: guest
         queue: professor-sent
         queueAluno: aluno-sent
-        exchange: Alunos
+        exchange: professores
+        exchageAluno: alunos
 
     mail:
         host: gmail.com
