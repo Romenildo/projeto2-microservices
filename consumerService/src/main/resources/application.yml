@@ -8,14 +8,14 @@ spring:
         port: 5672
         username: guest
         password: guest
-        queue: greetings-sent
+        queue: professor-sent
         exchange: Greetings
 
     mail:
         host: gmail.com
         port: 587
-        username: romenildotest@gmail.com
-        password: rom12345678
+        username: softfarmapp@gmail.com
+        password: softfarm1651
         properties:
             mail:
                 smtp:
