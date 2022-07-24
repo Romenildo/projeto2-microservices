@@ -15,6 +15,7 @@ import org.springframework.stereotype.Component;
 
 import lombok.RequiredArgsConstructor;
 
+//Essa parte vai para outro mciroservice do aluno consumer
 @Component
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class AlunoConsumer {
