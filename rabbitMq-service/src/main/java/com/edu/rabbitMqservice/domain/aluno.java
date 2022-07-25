@@ -1,3 +1,5 @@
+package com.edu.rabbitMqservice.domain;
+
 
 
 import javax.persistence.*;
@@ -31,7 +33,7 @@ public class Aluno {
     @Column(name = "email", unique = true)
     private String email;
 
-    public Professor(String name, String matricula, String email) {
+    public Aluno(String name, String matricula, String email) {
         this.name = name;
         this.matricula = matricula;
         this.email = email;
