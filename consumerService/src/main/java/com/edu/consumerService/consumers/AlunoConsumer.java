@@ -1,3 +1,5 @@
+
+/* 
 package com.edu.consumerService.consumers;
 
 import java.io.IOException;
@@ -39,3 +41,5 @@ public class AlunoConsumer {
         }
     }
 }
+
+*/
