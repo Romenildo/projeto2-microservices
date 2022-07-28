@@ -21,7 +21,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 
 @RestController
-@RequestMapping(value = "/Alunoes")
+@RequestMapping(value = "/Alunos")
 public class AlunoController {
 
     @Autowired

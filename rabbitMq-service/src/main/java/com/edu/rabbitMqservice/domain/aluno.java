@@ -1,7 +1,5 @@
 package com.edu.rabbitMqservice.domain;
 
-
-
 import javax.persistence.*;
 
 import javax.persistence.Column;
