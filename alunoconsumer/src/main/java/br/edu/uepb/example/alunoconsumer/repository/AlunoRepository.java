@@ -9,5 +9,6 @@ import br.edu.uepb.example.alunoconsumer.domain.Aluno;
 
 @Repository
 public interface AlunoRepository extends JpaRepository<Aluno, Long>{
-        Optional<Aluno> findByName(String name);
+        
+	Optional<Aluno> findByName(String name);
 }

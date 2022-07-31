@@ -56,6 +56,7 @@ public class AlunoController {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
+        
         return alunoRepository.save(aluno);
     }
     
@@ -76,6 +77,7 @@ public class AlunoController {
          aluno.setId(id);
          return alunoRepository.save(aluno);
     }
+    
     
     @DeleteMapping("/{id}")
     public void deleteAluno(@PathVariable Long id) {
