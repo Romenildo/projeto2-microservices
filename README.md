@@ -38,7 +38,7 @@ Considerando apenas dois dos 4 domínios (aluno, professor, turma e projeto), à
 
 Ao criar e editar um aluno/professor é gerado o evento que envia os dados para o rabbitMQ que é o intermediario do microServicos onde guardará as informações em uma lista para ser consumida:
 
-!()[imagem]
+![](https://github.com/Romenildo/projeto2-microservices/blob/master/professorListRabbit.PNG)
 
 Ademais ao chamar os consumer, ele irá ler essa lista com as informações dos email do rabbitMQ para o envio da mensagem a cada solicitação.   
 
